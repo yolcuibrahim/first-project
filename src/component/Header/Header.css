@@ -1,0 +1,19 @@
+.nav{
+    
+    background-color: brown;
+}
+
+.navbar{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+}
+
+.navbar li{
+    padding: 15px;
+    display: inline-block;
+}
+
+.navbar li:hover {
+
+}
