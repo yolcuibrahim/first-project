@@ -2,12 +2,14 @@
 import './App.css';
 import Card from './component/Card/Card';
 import Header from './component/Header/Header';
+import Button from './component/Button/Button';
 
 
 function App() {
   return (
     <div className='App'>
-      <Header />
+      <Header/>  
+      <Button/>
       <div className='cards'>
         <Card title="araba" description= "hızlı" />
         <Card title="telefon" description="akıllı"/>
@@ -15,8 +17,9 @@ function App() {
         <Card title="elma" description="yeşil"/>
         <Card title="bardak" description="cam"/>
         <Card title="kalem" description="tükenmez"/>
-
+        
       </div>
+     
     </div>
   );
 }
